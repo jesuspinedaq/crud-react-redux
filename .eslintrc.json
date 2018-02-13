@@ -1,0 +1,14 @@
+{
+    "env": {
+        "node": true,
+        "browser": true,
+        "es6": true
+    },
+    "rules": {
+        "react/prefer-es6-class": [1, "always"],
+        "react/prefer-stateless-function": [0, { "ignorePureComponents": true}]
+    },
+    
+    "parser": "babel-eslint",
+    "extends": "airbnb"
+}

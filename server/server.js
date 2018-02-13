@@ -1,11 +1,5 @@
-const express = require('express');
+const http = require('http');
+const app = require('./app');
 
-const app = express();
-
-app.get('/', (req, res) => {
-  res.send('Helloccc');
-});
-
-app.listen(3000, () => {
-  console.log('listening in port 3000');
-});
+const server = http.createServer(app);
+server.listen(3000);

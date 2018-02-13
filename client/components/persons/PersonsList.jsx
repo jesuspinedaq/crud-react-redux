@@ -28,7 +28,7 @@ class PersonsList extends React.Component {
   render() {
     return (
       <div>
-        <h1>Persons list</h1>
+        <h1>Person list</h1>
         <button
           className="btn btn-primary"
           onClick={this.redirectToAddPerson}

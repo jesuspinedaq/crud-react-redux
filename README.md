@@ -16,5 +16,13 @@ Mocha
 Chai
 
 
+sequelize setup
 
-sequelize model:create --name Persons --attributes first_name:string, last_name:string, city: string, state: string
+Isntall:
+npm install -g sequelize-cli
+
+Add new model:
+sequelize model:create --name Users --attributes first_name:string, last_name:string, city: string, state: string
+
+Run migrations:
+sequelize db:migrate
